@@ -1,6 +1,6 @@
 # Login App
 
-This project was generated with Angular version 9.1.3. For Login user can register and then log in to application.
+This project was generated with Angular version 9.1.3. For Login user can register and then log in to application with User mail ID: psingh038@ibm.com and PASSWORD: India@2021.
 Development server
 Start the app by running npm start from the command line in the project root folder, this will compile the Angular app and automatically launch it in the browser on the URL http://localhost:4200.
 NOTE: You can also start the app with the Angular CLI command ng serve --open. To do this first install the Angular CLI globally on your system with the command npm install -g @angular/cli.
