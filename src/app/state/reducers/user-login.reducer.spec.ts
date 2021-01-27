@@ -34,7 +34,7 @@ describe('UserLogin Reducer', () => {
 
   describe('AUTHENTICATE action', () => {
     it('should set loading to true', () => {
-      const userData = { email: 'test@domain.com', password: 'Test@123' };
+      const userData = { email: 'psingh038@ibm.com', password: 'India@2021' };
       const action = new UserLoginActions.AuthenticateAction(userData);
       const state = reducer(initialState, action);
       expect(state.loading).toEqual(true);
