@@ -15,8 +15,8 @@ describe('UserLoginEffects', () => {
   let effects: UserLoginEffects;
   // let service: UserService;
   const user: User = {
-    email: 'test@domain.com',
-    password: 'Test@123'
+    email: 'psingh038@ibm.com',
+    password: 'India@2021'
   };
   const error: any = { status: 401, message: '401 Unauthorized Error' };
 
@@ -39,8 +39,8 @@ describe('UserLoginEffects', () => {
 
   it('should work', () => {
     const action = new userLoginAction.AuthenticateAction({
-      email: 'test@domain.com',
-      password: 'Test@123'
+      email: 'psingh038@ibm.com',
+      password: 'India@2021'
     });
     const completion = new userLoginAction.AuthenticationSuccessAction({ user: TEST_USER });
     actions$ = hot('a|', { a: action });
